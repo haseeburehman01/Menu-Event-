@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-font: #ce1212;
+    --gray-light: #37373f;
+}
+
+.Lunch-font a {
+    font-size: 20px;
+    color: gray;
+}
+
+.red-font {
+    color: var(--text-font);
+}

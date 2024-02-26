@@ -4,16 +4,58 @@
     box-sizing: border-box;
 }
 
+body p {
+    font-size: 18px;
+}
+
 :root {
     --text-font: #ce1212;
     --gray-light: #37373f;
 }
 
+/* Google font classes */
+.amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.amatic-sc-bold {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+/* Google font classes */
+
+
 .Lunch-font a {
-    font-size: 20px;
+    font-size: 22px;
     color: gray;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .red-font {
     color: var(--text-font);
+}
+
+.starter-font {
+    font-size: 40px;
+    color: var(--text-font);
+    font-weight: 600;
+}
+
+.menu-box img {
+    width: 356px;
+    height: 336px;
 }

@@ -86,3 +86,19 @@ body p {
 .event-section {
     margin-top: 100px;
 }
+
+.event-box {
+    width: 421px;
+    height: 558px;
+    background-color: #000;
+}
+
+.event-box img {
+    opacity: 0.5;
+}
+
+.event-img-text {
+    position: absolute;
+    z-index: 1;
+    margin-top: -320px;
+}
